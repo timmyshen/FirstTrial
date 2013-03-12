@@ -14,7 +14,7 @@ using namespace Rcpp;
 //RcppExport SEXP convolve3
 int main()
 {
-	cout<<"Hello" << endl;
+	cout<<"Hello World" << endl;
 
 	//using namespace boost::lambda;
 	//typedef std::istream_iterator<int> in;
