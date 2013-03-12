@@ -8,9 +8,10 @@
 //#include <ql\quantlib.hpp>
 
 #include "C:\BenqingShen\ProgrammingLibs\ALGLIB\cpp\src\ap.h"
-
+#include <Rcpp.h>
 using namespace std;
-
+using namespace Rcpp;
+//RcppExport SEXP convolve3
 int main()
 {
 	cout<<"Hello" << endl;
@@ -24,6 +25,6 @@ int main()
 	//QuantLib::TimeSeries<double> timeseries;
 	//QuantLib::Date today(23, QuantLib::Feb, 2013);
 	//cout<< today << endl;
-
-
+	
+	//NumericVector
 }
